@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+/* font-family: 'Poppins', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+/* font-family: 'Poppins', sans-serif; */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background: rgb(0, 212, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 212, 255, 1) 0%,
+    rgba(22, 22, 22, 1) 0%,
+    rgba(17, 9, 57, 1) 0%,
+    rgba(2, 0, 40, 1) 0%,
+    rgba(10, 0, 65, 1) 47%,
+    rgba(37, 17, 139, 1) 100%,
+    rgb(11, 11, 118) 100%,
+    rgba(15, 15, 173, 1) 100%
+  );
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0px 21px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: rgb(203, 173, 232);
+}
+
+body {
+  background: rgb(0, 212, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 212, 255, 1) 0%,
+    rgba(22, 22, 22, 1) 0%,
+    rgba(13, 0, 82, 1) 100%,
+    rgba(37, 17, 139, 1) 100%,
+    rgba(0, 0, 96, 1) 100%,
+    rgba(15, 15, 173, 1) 100%,
+    rgba(2, 0, 40, 1) 100%
+  );
+  color: white;
+}
+
+main {
+  font-family: "Poppins", sans-serif;
+}
+
+main hr {
+  margin: 30px 0px;
+  height: 1px;
+  background: white;
+}
+
+.firstSec {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 80px 0;
+}
+
+.firstSec > div {
+  width: 35%;
+}
+
+.leftdiv {
+  font-size: 2rem;
+}
+
+.right-btn {
+  padding: 10px;
+  font-size: 0.9rem;
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 7px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 25px;
+}
+
+.right-btn:hover {
+  cursor: pointer;
+  background-color: rgb(49, 12, 84);
+}
+
+.left-btn {
+  padding: 10px;
+  font-size: 0.9rem;
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 7px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 25px;
+}
+
+.left-btn:hover {
+  cursor: pointer;
+  background-color: rgb(49, 12, 84);
+}
+.rightdiv img {
+  width: 90%;
+}
+
+.name {
+  color: rgb(156, 115, 194);
+}
+
+#element {
+  color: rgb(156, 115, 194);
+}
+
+.secondSec {
+  max-width: 80vw;
+  margin: auto;
+}
+
+.every-thing {
+  color: gray;
+}
+
+.about {
+  font-size: 0.9rem;
+}
+
+.secondSec .about-purple {
+  color: rgb(156, 115, 194);
+}
+
+.thirdSec {
+  max-width: 80vw;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.education-gray {
+  color: gray;
+}
+
+.education-purple {
+  color: rgb(156, 115, 194);
+}
+
+.education-details {
+  font-size: 0.9rem;
+}
+
+.fourthSec {
+  max-width: 80vw;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.skills-gray {
+  color: gray;
+}
+
+.skills-purple {
+  color: rgb(156, 115, 194);
+}
+
+.fifthhSec {
+  max-width: 80vw;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.projects-gray {
+  color: gray;
+}
+
+.projects-purple {
+  color: rgb(156, 115, 194);
+}
+
+.projects.details {
+  font-size: 0.9rem;
+}
+
+footer {
+  height: 10vh;
+  margin-top: 70px;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(0, 212, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 212, 255, 1) 0%,
+    rgba(22, 22, 22, 1) 0%,
+    rgba(17, 9, 57, 1) 0%,
+    rgba(2, 0, 40, 1) 0%,
+    rgba(10, 0, 65, 1) 47%,
+    rgba(37, 17, 139, 1) 100%,
+    rgba(0, 0, 96, 1) 100%,
+    rgba(15, 15, 173, 1) 100%
+  );
+}
+
+footer p {
+  font-size: 0.8rem;
+}
+
+footer p span {
+  color: rgb(156, 115, 194);
+}
+
